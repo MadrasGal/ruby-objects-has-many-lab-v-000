@@ -4,7 +4,7 @@ class Post
     @title = title
   end
 
-  def title 
+  def title
     @title
   end
 end
