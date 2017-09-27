@@ -3,6 +3,7 @@ class Post
 
   def initialize (title)
     @title = title
+    @author = self.author
   end
 
   def title
@@ -10,6 +11,10 @@ class Post
   end
 
   def author_name
-    self.author.name
+    if self.author
+      self.author.name
+    else
+      nil
+    end
   end
 end
