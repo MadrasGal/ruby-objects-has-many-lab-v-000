@@ -21,7 +21,7 @@ attr_accessor :name
     @posts << post
     post.artist = self
   end
-  
+
   def author
 
   end
