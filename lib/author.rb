@@ -15,6 +15,9 @@ attr_accessor :name
     @posts << post
   end
 
+  def author
+
+  end
   def author_name
 
   end
