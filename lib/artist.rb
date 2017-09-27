@@ -25,6 +25,6 @@ class Artist
   end
 
   def self.song_count
-    @@song_count
+    return @@song_count
   end
 end
