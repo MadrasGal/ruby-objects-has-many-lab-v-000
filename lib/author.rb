@@ -19,7 +19,7 @@ attr_accessor :name
   def author
 
   end
-  
+
   def author_name
 
   end
