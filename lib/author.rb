@@ -21,6 +21,7 @@ attr_accessor :name
   def add_post_by_title (title)
     post = Post.new(title)
     @posts << post
+    @@post_count +=1
     post.author = self
   end
 
@@ -33,7 +34,6 @@ attr_accessor :name
   end
 
   def self.post_count
-    @@post_count= count(posts)
-    return @@post_count
+     @@post_count
   end
 end
