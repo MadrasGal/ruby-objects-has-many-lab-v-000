@@ -14,7 +14,7 @@ class Song
     if (self.artist == '')
       return nil
       else
-        self.artist.name
+        self.artist
     end
   end
 
