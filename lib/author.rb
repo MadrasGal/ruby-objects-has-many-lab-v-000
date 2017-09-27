@@ -19,7 +19,7 @@ attr_accessor :name
   def add_post_by_title (title)
     post = Post.new(title)
     @posts << post
-    post.artist = self
+    post.author = self
   end
 
   def author
