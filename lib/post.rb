@@ -8,4 +8,8 @@ class Post
   def title
     @title
   end
+
+  def author_name
+
+  end
 end
